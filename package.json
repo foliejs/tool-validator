@@ -1,0 +1,35 @@
+{
+  "name": "tool-validator",
+  "version": "0.0.1",
+  "description": "Validator for Tool Project",
+  "main": "index.js",
+  "dependencies": {
+    "cyanide-policy": "https://code.teambition.com/tools/policy.git"
+  },
+  "devDependencies": {
+		"jsdoc": "*",
+    "should": "*",
+    "istanbul": "*"
+  },
+  "scripts": {
+    "build_docs": "jsdoc -c jsdoc.conf",
+    "start": "nodemon ./src/app.js",
+    "start_target": "nodemon ./src/utils/target.js",
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "test_coverage": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@code.teambition.com:tools/validator.git"
+  },
+  "keywords": [
+    "validator",
+    "nodejs"
+  ],
+  "author": "Frank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://code.teambition.com/tools/validator/issues"
+  },
+  "homepage": "https://code.teambition.com/tools/validator#readme"
+}
