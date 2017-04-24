@@ -12,4 +12,4 @@ Genine Javascript Validator
 - Throws errors
 
 ## Issues
-Please Refer to [https://code.teambition.com/tools/validator/issues](https://code.teambition.com/tools/validator/issues)
+Please Refer to [https://github.com/foliejs/tool-validator/issues](https://github.com/foliejs/tool-validator/issues)
