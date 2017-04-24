@@ -1,10 +1,10 @@
 {
   "name": "tool-validator",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Validator for Tool Project",
   "main": "index.js",
   "dependencies": {
-    "cyanide-policy": "https://code.teambition.com/tools/policy.git"
+    "tool-policy": "https://github.com/foliejs/tool-policy"
   },
   "devDependencies": {
 		"jsdoc": "*",
@@ -20,16 +20,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@code.teambition.com:tools/validator.git"
+    "url": "git@github.com:foliejs/tool-validator.git"
   },
   "keywords": [
     "validator",
     "nodejs"
   ],
-  "author": "Frank",
+  "author": "Jack Sun",
   "license": "ISC",
   "bugs": {
-    "url": "https://code.teambition.com/tools/validator/issues"
+    "url": "https://github.com/foliejs/tool-validator/issues"
   },
-  "homepage": "https://code.teambition.com/tools/validator#readme"
+  "homepage": "https://github.com/foliejs/tool-validator#readme"
 }
